@@ -2,10 +2,10 @@ default: &default
   adapter: postgresql
   encoding: unicode
   pool: 20
-  host: localhost
 
 development:
   <<: *default
+  host: localhost
   username: <%= ENV['DEV_DB_USERNAME'] %>
   database: <%= ENV['DEV_DB_NAME'] %>
 

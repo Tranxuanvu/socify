@@ -30,6 +30,8 @@ group :test do
 end
 gem 'foundation-rails', '~> 5.5'
 gem 'high_voltage'
-gem 'pg'
+gem 'pg', '~> 0.18.4'
 gem 'simple_form'
 gem 'slim-rails'
+gem 'bcrypt'
+gem 'devise'
