@@ -13,6 +13,7 @@ group :development do
   gem 'hub', :require=>nil
   gem 'rails_layout'
   gem 'spring-commands-rspec'
+  gem 'letter_opener'
 end
 group :development, :test do
   gem 'factory_girl_rails'
