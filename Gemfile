@@ -13,6 +13,7 @@ group :development do
   gem 'hub', :require=>nil
   gem 'rails_layout'
   gem 'spring-commands-rspec'
+  gem 'letter_opener'
 end
 group :development, :test do
   gem 'factory_girl_rails'
@@ -30,6 +31,8 @@ group :test do
 end
 gem 'foundation-rails', '~> 5.5'
 gem 'high_voltage'
-gem 'pg'
+gem 'pg', '~> 0.18.4'
 gem 'simple_form'
 gem 'slim-rails'
+gem 'bcrypt'
+gem 'devise'

@@ -8,4 +8,10 @@ nav.top-bar[data-topbar]
         Menu
   .top-bar-section
     ul
-      == render 'layouts/navigation_links'
+      - if current_user
+        li.name
+          = link_to "#{current_user.email}", "#"
+        li.name
+          = link_to "Logout", destroy_user_session_path
+      - else
+        = render 'layouts/navigation_links'
