@@ -28,6 +28,7 @@ group :test do
   gem 'database_cleaner'
   gem 'launchy'
   gem 'selenium-webdriver'
+  gem 'codeclimate-test-reporter', '~> 1.0.0'
 end
 gem 'foundation-rails', '~> 5.5'
 gem 'high_voltage'

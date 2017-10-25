@@ -1,5 +1,6 @@
 Socify
 ================
+[![Test Coverage](https://api.codeclimate.com/v1/badges/f84dd7a7c9f9177d2122/test_coverage)](https://codeclimate.com/github/Tranxuanvu/socify/test_coverage)
 
 This application requires:
 
