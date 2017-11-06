@@ -1,0 +1,10 @@
+- @posts.each do |post|
+  .post-wrapper
+    = link_to post_path(post) do
+      .user
+        = post.user.email
+      .content
+        = post.content
+    .attachment
+      = image_tag post.attachment_url, width: 500
+= paginate @posts

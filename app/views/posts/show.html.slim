@@ -1,0 +1,7 @@
+.post-wrapper
+  .user
+    = @post.user.email
+  .content
+    = @post.content
+  .attachment
+    = image_tag @post.attachment_url, width: 500

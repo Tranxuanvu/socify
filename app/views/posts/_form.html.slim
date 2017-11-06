@@ -1,0 +1,8 @@
+= form_for @post do |f|
+  .form-group
+    = f.label @post.persisted? ? 'Edit status' : 'Update status'
+    br
+    = f.text_area :content, class: 'form-control', autofocus: true,
+      placeholder: "What's up?"
+    = f.file_field :attachment, class: 'form-control'
+  = f.submit @post.persisted? ? 'Update' : 'Post', class: 'btn btn-primary'
